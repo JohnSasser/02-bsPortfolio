@@ -60,7 +60,6 @@ footer {
 	color: whitesmoke;
 	height: 30px;
 	align-self: center;
-	/* margin-top: 30px; */
 	border-top: solid 1.5px #29d1ce;
 	position: fixed;
 	bottom: 0;
@@ -117,7 +116,7 @@ footer {
 		color: #29d1ce;
 	}
 
-	p {
-		line-height: 25px;
+	.bodyContainer {
+		line-height: 2;
 	}
 }

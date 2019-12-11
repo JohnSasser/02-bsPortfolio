@@ -12,15 +12,25 @@
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="./assets/css/style1.css">
+		<link rel="stylesheet" href="./assets/css/style1.css" />
 		<style>
 			body {
 				background-image: url(./assets/images/what-the-hex-dark.png);
-            }
-            
-            .bodyContainer:hover {
+			}
+
+			#navBar {
+				background-image: url(./assets/images/background-qbkls.png);
+			}
+			/* hover effects over main container in portfolio */
+			.bodyContainer:hover {
 				box-shadow: 0px 0px 25px #29d1ce;
 				transition: 1.2s;
+			}
+
+			/* images to be linked in the portfolio */
+			.portfolioImg {
+				height: 250px;
+				width: 250px;
 			}
 
 			.portfolioImg:hover {
@@ -32,102 +42,17 @@
 				background-color: #29d1ce;
 				position: absolute;
 				width: 250px;
-				left: 25px; 
-                top: 70%;
+				left: 25px;
+				top: 70%;
 				height: 30px;
 				text-align: center;
 				color: whitesmoke;
-            }
-            
-            .portfolioImg {
-				height: 250px;
-				width: 250px;
-			}
-            /* start break for stylesheet 
-			h1,
-			h3 {
-				color: #29d1ce;
 			}
 
-			a {
-				color: #777;
-			}
-
-			p {
-				padding: 0 40 0 40;
-			}
-
-			#navBar {
-				border-bottom: 2px solid #777;
-			}
-
-			#navBar:hover {
-				box-shadow: 0px 0px 40px #29d1ce;
-				transition: 1.2s;
-			}
-
-			a:hover {
-				color: #29d1ce;
-				transition: 1.2s;
-			}
-
-			.navName {
-				color: whitesmoke;
-			}
-
-			img {
-				height: 250px;
-				width: 225px;
-				margin: 10px 30px 15px 10px;
-				box-shadow: 0px 0px 15px black;
-				position: relative;
-			}
-
-			.boxContainer {
-				border: solid black;
-				padding: 40px;
-				background-color: whitesmoke;
-				margin-top: 45px;
-				margin-bottom: 45px;
-				box-shadow: 0px 0px 15px black;
-			}
-
-			footer {
-				text-align: center;
-				background-color: whitesmoke;
-				height: 30px;
-				align-self: center;
-				margin-top: 30px;
-				border-top: solid 1.5px #29d1ce;
-				position: fixed;
-				bottom: 0;
-				width: 100%;
-			}
-
+			/* begin media query */
 			@media (max-width: 640px) {
 				.navbar {
 					padding: 0;
-				}
-
-				h3 {
-					color: black;
-					text-shadow: 0px 1px 1px grey;
-				}
-
-				.imgText {
-					overflow: auto;
-					background-color: #29d1ce;
-					position: absolute;
-					width: 93.4%;
-					top: 70%;
-					height: 42px;
-					text-align: center;
-                }
-                
-                .portfolioImg {
-					width: 100%;
-					display: flex;
-					align-content: center;
 				}
 
 				.navbar-brand {
@@ -138,7 +63,21 @@
 					margin: 0;
 				}
 
-				
+				.imgText {
+					/* overflow: auto; */
+					background-color: #29d1ce;
+					position: absolute;
+					width: 92.3%;
+					top: 70%;
+					height: 42px;
+					text-align: center;
+				}
+
+				.portfolioImg {
+					width: 100%;
+					display: flex;
+					align-content: center;
+				}
 
 				#headShot {
 					width: 100%;
@@ -149,22 +88,32 @@
 
 				.nav {
 					margin: 0 auto;
+					display: flex;
+				}
+
+				h3 {
+					color: black;
+					text-shadow: 0px 1px 1px grey;
+				}
+
+				h4 {
+					color: #29d1ce;
 				}
 
 				p {
-					line-height: 5;
+					line-height: 25px;
 				}
-
-				footer {
-					margin-top: 20px;
-				}
-			}   */
+			}
 		</style>
 	</head>
 
 	<body class="body">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBar">
-			<a class="navbar-brand" href="https://www.github.com/JohnSasser">
+			<a
+				class="navbar-brand"
+				href="https://www.github.com/JohnSasser"
+				target="blank"
+			>
 				<div class="navName">
 					<h3>John B Sasser</h3>
 				</div>
@@ -185,66 +134,63 @@
 		</nav>
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-8">
-					<div class="container bodyContainer boxContainer">
-						<div class="row">
-							<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-								<div class="row">
-									<div class="col-xs-12 col-sm-12 col-md-10 col-lg-6">
-										<div class="imageBox">
-											<img
-												class="portfolioImg"
-												src="./assets/images/basic-portfolio-code.png"
-												alt="Basic Code"
-											/>
-											<div class="imgText">Basic Code</div>
-										</div>
-									</div>
-									<div class="col-xs-12 col-sm-12 col-md-10 col-lg-6">
-										<div class="imageBox">
-											<img
-												class="portfolioImg"
-												src="./assets/images/moab-dirtbike.png"
-												alt="Motorcycles"
-											/>
-											<div class="imgText">Motorcycles</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-xs-12 col-sm-12 col-md-10 col-lg-6">
+				<div class="container bodyContainer boxContainer">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									<div class="imageBox">
 										<img
 											class="portfolioImg"
-											src="./assets/images/scratch-cat.png"
-											alt="Scratch Game"
+											src="./assets/images/basic-portfolio-code.png"
+											alt="Basic Code"
 										/>
-										<div class="imgText">Scratching</div>
-									</div>
-									<div class="col-xs-12 col-sm-12 col-md-10 col-lg-6">
-										<img
-											class="portfolioImg"
-											src="./assets/images/skiing.jpg"
-											alt="Skiing"
-										/>
-										<div class="imgText">Skiing</div>
+										<div class="imgText">Basic Code</div>
 									</div>
 								</div>
-									<div class="row">
-										<div class="col-xs-12 col-sm-12 col-md-10 col-lg-6">
-											<img
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									<div class="imageBox">
+										<img
 											class="portfolioImg"
-											src="./assets/images/javascript-for-kids.png"
-											alt="JavaScript for kids"
-											/>
-											<div class="imgText">Code Books</div>
-										</div>
-										<!-- <div
-										class="col-xs-12 col-sm-12 col-md-10 col-lg-6"
+											src="./assets/images/moab-dirtbike.png"
+											alt="Motorcycles"
+										/>
+										<div class="imgText">Motorcycles</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									<img
+										class="portfolioImg"
+										src="./assets/images/scratch-cat.png"
+										alt="Scratch Game"
+									/>
+									<div class="imgText">Scratching</div>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									<img
+										class="portfolioImg"
+										src="./assets/images/skiing.jpg"
+										alt="Skiing"
+									/>
+									<div class="imgText">Skiing</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+									<img
+										class="portfolioImg"
+										src="./assets/images/javascript-for-kids.png"
+										alt="JavaScript for kids"
+									/>
+									<div class="imgText">Code Books</div>
+								</div>
+								<!-- <div
+										class="col-xs-12 col-sm-12 col-md-10 col-lg-8"
 										id="empty"
 										>
 										<img src="http://www.placecage.com/200/200" /> -->
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
