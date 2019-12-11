@@ -27,20 +27,23 @@ What things you need to install the software and how to install them:
 
 ## Built With:
 
-HTML5
-Bootstrap
+- HTML5
+- Bootstrap
 
 ## contributing
 
-Please feel free to fork and pull anytime!
-Please consult me before any major changes.
+- Please feel free to fork and pull anytime!
+- Please consult me before any major changes.
 
-Authors
-[John B Sasser] - Initial work
+## Authors
 
-License
+[John B Sasser](https://github.com/JohnSasser) - Initial work
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
-Hat tip to [Alex Gignilliat](https://github.com/alexgignilliat) who was available to bounce ideas off &
+## Acknowledgments
+
+Hat-tip to [Alex Gignilliat](https://github.com/alexgignilliat) who was available to bounce ideas off &
 consult for favorable styling preferences.
