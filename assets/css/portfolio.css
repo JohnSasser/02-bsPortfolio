@@ -1,6 +1,7 @@
 body {
 	background-image: url(./assets/images/what-the-hex-dark.png);
 	line-height: 2;
+	margin-bottom: 100px;
 }
 
 h1,
@@ -80,13 +81,14 @@ a:hover {
 
 .portfolioImg:hover {
 	box-shadow: 0px 0px 20px goldenrod;
+	cursor: pointer;
 }
 
 /* position and code for the banner over portfolio img */
 .imgText {
 	background-color: #29d1ce;
 	position: absolute;
-	width: 95%;
+	width: 100%;
 	top: 70%;
 	height: 30px;
 	text-align: center;
@@ -122,7 +124,7 @@ footer {
 		overflow: auto;
 		background-color: #29d1ce;
 		position: absolute;
-		width: 95%;
+		width: 100%;
 		top: 70%;
 		height: 42px;
 		text-align: center;
