@@ -58,14 +58,17 @@ a:hover {
 	justify-content: flex-start;
 }
 
-.bodyContainer:hover {
+/* .bodyContainer:hover {
 	box-shadow: 0px 0px 25px #29d1ce;
 	transition: 1.2s;
-}
+} */
 
 .imageBox {
 	background-color: #29d1ce;
 	position: relative;
+}
+.imageColumn {
+	padding: 0px;
 }
 
 /* images to be linked in the portfolio */
@@ -83,7 +86,7 @@ a:hover {
 .imgText {
 	background-color: #29d1ce;
 	position: absolute;
-	width: 100%;
+	width: 95%;
 	top: 70%;
 	height: 30px;
 	text-align: center;
@@ -119,7 +122,7 @@ footer {
 		overflow: auto;
 		background-color: #29d1ce;
 		position: absolute;
-		width: 100%;
+		width: 95%;
 		top: 70%;
 		height: 42px;
 		text-align: center;
