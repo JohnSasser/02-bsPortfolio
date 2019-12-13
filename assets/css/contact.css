@@ -50,6 +50,9 @@ a:hover {
 /* card that has the message */
 .cardContainer {
 	position: relative;
+	font-family: "PT Sans", sans-serif;
+	font-size: 18px;
+	font: 800;
 	width: 100%;
 	height: 100%;
 }
