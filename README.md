@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 - open your git bash or terminal and clone the repository locally on your computer.
 - open and view from here.
 
-# OR
+OR
 
 - direct to the address [Live Bootstrap Portfolio](https://johnsasser.github.io/02-bsPortfolio/)
   to view the current portfolio live on GitHub.
