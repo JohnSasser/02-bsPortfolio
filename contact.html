@@ -1,106 +1,74 @@
 <!DOCTYPE html>
 <html class="no-js">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<title>Bootstrap Powered Portfolio</title>
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="./assets/css/contact.css" />
-		<style>
-			body {
-				background-image: url(./assets/images/what-the-hex-dark.png);
-			}
 
-			#navBar,
-			.cardContainer {
-				background-image: url(./assets/images/background-qbkls.png);
-			}
-		</style>
-	</head>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Bootstrap Powered Portfolio</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./assets/css/contact.css" />
+	<script src="https://kit.fontawesome.com/5f4b0fb1a5.js" crossorigin="anonymous"></script>
+	<style>
 
-	<body class="body">
-		<nav class="navbar navbar-expand-xxl navbar-light bg-light" id="navBar">
-			<a
-				class="navbar-brand"
-				href="https://www.github.com/JohnSasser"
-				target="blank"
-			>
-				<div class="navName">
-					<h3>John B Sasser</h3>
-				</div>
-			</a>
-			<ul class="nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="./index.html"
-						>About <span class="sr-only">(current)</span></a
-					>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="./portfolio.html">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="./contact.html">Contact</a>
-				</li>
-			</ul>
-		</nav>
+	</style>
+</head>
 
-		<div class="container contactContainer">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12">
-					<div class="card-body cardContainer">
-						<h1 class="card-title">Contact</h1>
-						<hr size="3" color="#000" width="100%" />
-						<form>
-							<div class="form-group">
-								<label for="exampleFormControlInput1">Name</label>
-								<input
-									type="text"
-									class="form-control"
-									id="exampleFormControlInput1"
-									placeholder="Your Name"
-								/>
-							</div>
-							<div class="form-group">
-								<label for="exampleFormControlInput1">Email address</label>
-								<input
-									type="email"
-									class="form-control"
-									id="exampleFormControlInput1"
-									placeholder="name@example.com"
-								/>
-							</div>
-							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Message</label>
-								<textarea
-									class="form-control"
-									id="exampleFormControlTextarea1"
-									rows="12"
-									placeholder="leave a message"
-								></textarea>
-								<!-- <button type="button" class="btn-btn-outline-dark">SUBMIT</button> -->
-								<input
-									class="btn btn-outline-dark submitButton"
-									type="submit"
-									value="Submit"
-								/>
-							</div>
-						</form>
-					</div>
+<body class="body">
+	<nav class="navbar navbar-expand-xxl navbar-light bg-light" id="navBar">
+		<a class="navbar-brand btn btn-social-icon btn-twitter" href="https://www.github.com/JohnSasser" target="blank">
+			<div class="navName">
+				<h3>John B Sasser</h3>
+				<i class="fab fa-github fa-lg"></i>
+			</div>
+		</a>
+		<ul class="nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./portfolio.html">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./contact.html">Contact</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="container contactContainer">
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<div class="card-body cardContainer">
+					<h1 class="card-title">Contact</h1>
+					<hr size="3" color="#000" width="100%" />
+					<form>
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Name</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1"
+								placeholder="Your Name" />
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Email address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1"
+								placeholder="name@example.com" />
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="12"
+								placeholder="leave a message"></textarea>
+							<!-- <button type="button" class="btn-btn-outline-dark">SUBMIT</button> -->
+							<input class="btn btn-outline-dark submitButton" type="submit" value="Submit" />
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<footer>John Sasser &COPY;</footer>
-	</body>
+	<footer>John Sasser &COPY;</footer>
+</body>
+
 </html>

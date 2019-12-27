@@ -26,7 +26,7 @@ p {
 
 #navBar:hover {
 	box-shadow: 0px 0px 40px #29d1ce;
-	transition: 1.2s;
+	transition: 0.8s;
 }
 
 .navName:hover {
@@ -61,11 +61,6 @@ a:hover {
 	display: flex;
 	justify-content: flex-start;
 }
-
-/* .bodyContainer:hover {
-	box-shadow: 0px 0px 25px #29d1ce;
-	transition: 1.2s;
-} */
 
 .imageBox {
 	background-color: #29d1ce;

@@ -1,6 +1,11 @@
 body {
-	background-image: url(./assets/images/what-the-hex-dark.png);
+	background-image: url(../images/what-the-hex-dark.png);
 	line-height: 2;
+}
+
+#navBar,
+.cardContainer {
+	background-image: url(../images/background-qbkls.png);
 }
 
 h1,
