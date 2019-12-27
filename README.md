@@ -43,7 +43,4 @@ What things you need to install the software and how to install them:
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-## Acknowledgments
-
-Hat-tip to [Alex Gignilliat](https://github.com/alexgignilliat) who was available to bounce ideas off &
-consult for favorable styling preferences.
+<!-- ## Acknowledgements -->
