@@ -1,9 +1,12 @@
 body {
-	background-image: url(./assets/images/what-the-hex-dark.png);
+	background-image: url(../images/what-the-hex-dark.png);
 	line-height: 2;
 	margin-bottom: 100px;
 }
-
+#navBar,
+.bodyContainer {
+	background-image: url(../images/background-qbkls.png);
+}
 h1,
 h4 {
 	color: #29d1ce;
