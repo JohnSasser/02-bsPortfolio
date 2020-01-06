@@ -24,6 +24,11 @@ p {
 	border-bottom: 2px solid #777;
 }
 
+.nav-link {
+	font-size: 20px;
+	color: black;
+}
+
 #navBar:hover {
 	box-shadow: 0px 0px 40px #29d1ce;
 	transition: 0.8s;

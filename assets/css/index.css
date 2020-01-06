@@ -20,6 +20,11 @@ p {
 	padding: 0 40 0 40;
 }
 
+.nav-link {
+	font-size: 20px;
+	color: black;
+}
+
 #navBar {
 	border-bottom: 2px solid #777;
 }
