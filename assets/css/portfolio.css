@@ -39,9 +39,14 @@ p {
 	transition: 0.5s;
 }
 
+.fa-lg:hover {
+	color: goldenrod;
+	transition: 0.5s;
+}
+
 a:hover {
 	color: goldenrod;
-	transition: 1.2s;
+	transition: 0.5s;
 }
 
 #headShot {
