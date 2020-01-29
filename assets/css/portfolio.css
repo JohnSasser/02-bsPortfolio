@@ -34,9 +34,15 @@ p {
 	transition: 0.8s;
 }
 
-.navName:hover {
+/* .nav-name:hover {
 	color: goldenrod;
 	transition: 0.5s;
+} */
+
+.fa-lg {
+	/* float: left; */
+	display: flex;
+	justify-self: left;
 }
 
 .fa-lg:hover {
@@ -120,11 +126,10 @@ footer {
 		padding: 0;
 	}
 
-	.navbar-brand {
+	.nav-name {
 		width: 100%;
 		flex: 100%;
 		text-align: center;
-		background: #29d1ce;
 		margin: 0;
 	}
 

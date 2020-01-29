@@ -43,10 +43,10 @@ p {
 }
 
 /* hover link for "john b sasser" in navbar */
-.navName:hover {
+/* .nav-name:hover {
 	color: goldenrod;
 	transition: 0.5s;
-}
+} */
 
 .fa-lg:hover {
 	color: goldenrod;
@@ -73,6 +73,7 @@ a:hover {
 	font: 800;
 	width: 100%;
 	height: 100%;
+	margin-bottom: 60px;
 }
 
 .cardContainer:hover {
@@ -102,11 +103,10 @@ footer {
 		padding: 0;
 	}
 
-	.navbar-brand {
+	.nav-name {
 		width: 100%;
 		flex: 100%;
 		text-align: center;
-		background: #29d1ce;
 		margin: 0;
 	}
 
