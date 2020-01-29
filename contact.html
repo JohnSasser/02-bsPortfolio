@@ -53,8 +53,10 @@
 			<div class="col-sm-12 col-md-12 col-lg-12">
 				<div class="card-body cardContainer">
 					<h1 class="card-title">Contact</h1>
+
 					<hr size="3" color="#000" width="100%" />
-					<form>
+
+					<form action="https://formspree.io/xbjojbro" method="POST">
 						<div class="form-group">
 							<label for="exampleFormControlInput1">Name</label>
 							<input type="text" class="form-control" id="exampleFormControlInput1"
@@ -62,17 +64,18 @@
 						</div>
 						<div class="form-group">
 							<label for="exampleFormControlInput1">Email address</label>
-							<input type="email" class="form-control" id="exampleFormControlInput1"
-								placeholder="name@example.com" />
+							<input type="email" name="replyto" class="form-control" id="exampleFormControlInput1"
+								placeholder="email@example.com" />
 						</div>
 						<div class="form-group">
 							<label for="exampleFormControlTextarea1">Message</label>
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="12"
 								placeholder="leave a message"></textarea>
-							<!-- <button type="button" class="btn-btn-outline-dark">SUBMIT</button> -->
-							<input class="btn btn-outline-dark submitButton" type="submit" value="Submit" />
+
+							<input class="btn btn-outline-dark submitButton" type="submit" />
 						</div>
 					</form>
+
 				</div>
 			</div>
 		</div>
